@@ -1,7 +1,7 @@
 # Explainable Text-Guided Person Re-Identification across Cameras (CLIP + VLM)
 
-> Final Year Project · Computer Vision · Person Re-ID, vision-language models, explainability
-> Author: *[your name]* · Supervisor: *[supervisor name]* · Platform: Google Colab (free Tesla T4)
+> · Computer Vision · Person Re-ID, vision-language models, explainability
+> Author: *[Nimra]*  · Platform: Google Colab (free Tesla T4)
 
 **One-line idea.** In forensic work there is often no photo of the suspect, only a witness statement ("red jacket, black backpack").
 This project builds a pipeline that searches a multi-camera gallery with an **image query, a text description, or both**, filters matches by **camera/time plausibility**, produces a **camera route**, and asks a **small VLM (SmolVLM) to explain the match** — and, importantly, *tests whether that explanation can be trusted* with a control experiment.
